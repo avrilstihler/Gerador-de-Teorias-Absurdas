@@ -38,7 +38,7 @@ Feito com a estética de **cobertores mágicos, estrelas dorminhocas e cadernos 
 ## Como Funciona?
 
 1. Você **entra no site encantado**
-2. Clica no botão **"Nova Teoria"**
+2. Clica no botão **"✨ Nova Teoria"**
 3. Recebe uma teoria maluca com toque de magia, física e filosofia 
 
 
