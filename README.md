@@ -41,5 +41,8 @@ Feito com a estética de **cobertores mágicos, estrelas dorminhocas e cadernos 
 3. Recebe uma teoria maluca com toque de magia, física e filosofia 
 
 
-## Exemplo de Teoria
+
+| Exemplo de Teoria | 
+|-----------------|
+| ![Teoria Mágica](images/tela2.png) | 
 
