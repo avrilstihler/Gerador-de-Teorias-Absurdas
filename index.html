@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Teorias Mágicas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Schoolbell&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Cabeçalho -->
+        <div class="header-container">
+            <h1 class="title">
+                <span class="magic-text">Gerador de</span>
+                <span>Teorias Mágicas</span>
+            </h1>
+            <p class="subtitle">Inspirado no universo encantado de Summer Camp Island</p>
+        </div>
+        
+        <!-- Card de Teoria -->
+        <div class="theory-container">
+            <article class="theory-card">
+                <h2 class="theory-title" id="theoryTitle">Carregando magia...</h2>
+                <p class="theory-description" id="theoryDescription"></p>
+                
+                <div class="theory-footer">
+                    <button id="newTheoryBtn" class="magic-button">
+                        <span class="button-icon">✨</span>
+                        Nova Teoria
+                    </button>
+                </div>
+            </article>
+        </div>
+        
+        <!-- Personagens -->
+        <div class="characters-container">
+            <h3 class="characters-title">Nossos Aprendizes de Magia</h3>
+            <div class="characters">
+                <div class="character">
+                    <div class="character-avatar oscar"></div>
+                    <p>Oscar</p>
+                </div>
+                <div class="character">
+                    <div class="character-avatar hedgehog"></div>
+                    <p>Hedgehog</p>
+                </div>
+                <div class="character">
+                    <div class="character-avatar susie"></div>
+                    <p>Susie</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rodapé -->
+        <footer class="footer">
+            <p>Feito com ♥ e um pouco de magia</p>
+        </footer>
+    </div>
+
+    <script src="theories.json"></script>
+    <script src="script.js"></script>
+</body>
+</html>

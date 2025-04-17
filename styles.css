@@ -1,0 +1,284 @@
+/* Reset e Variáveis */
+:root {
+    --primary: #6C4AB6;
+    --primary-light: #8D72E1;
+    --secondary: #B9E0FF;
+    --background: #F8F9FA;
+    --text: #2D3748;
+    --text-light: #4A5568;
+    --card-bg: #FFFFFF;
+    --magic-accent: #FF9E9E;
+    --footer-gradient-start: #F3D7FF;
+    --footer-gradient-end: #FFD6F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: var(--background);
+    background-image: url('images/seriesdecine__2022-05-04_02-56-52_048379-300x450.jpg');
+    background-repeat: repeat;
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container Principal Branco */
+.main-container {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Cabeçalho */
+.header-container {
+    padding: 2.5rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(108, 74, 182, 0.05), rgba(255, 158, 158, 0.05));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.title .magic-text {
+    background: linear-gradient(45deg, var(--primary-light), var(--magic-accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    font-family: 'Schoolbell', cursive;
+}
+
+/* Card de Teoria */
+.theory-container {
+    padding: 2rem;
+}
+
+.theory-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.theory-title {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.theory-description {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.theory-footer {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgba(140, 82, 255, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 1.5rem;
+}
+
+/* Container de Personagens */
+.characters-container {
+    padding: 2rem;
+    background-color: rgba(249, 244, 255, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.characters-title {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.character {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0.5rem;
+    border: 3px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.character-avatar:hover {
+    transform: scale(1.1);
+}
+
+.oscar {
+    background-image: url('images/Oscar.jpg');
+}
+
+.hedgehog {
+    background-image: url('images/Hedgehog2.jpg');
+}
+
+.susie {
+    background-image: url('images/Susie.jpg');
+}
+
+.character p {
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+/* Botão Mágico */
+.magic-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(108, 74, 182, 0.3);
+}
+
+.magic-button:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(108, 74, 182, 0.4);
+}
+
+.magic-button:active {
+    transform: translateY(0);
+}
+
+.button-icon {
+    font-size: 1.2rem;
+}
+
+/* Rodapé Colorido */
+.footer {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    color: rgba(121, 37, 174, 0.6) ;
+    font-size: 1rem;
+    background: linear-gradient(135deg, var(--footer-gradient-start), var(--footer-gradient-end));
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 0 0 16px 16px;
+}
+
+.footer::before {
+    content: '';
+    display: block;
+    height: 15px;
+    background: linear-gradient(90deg, 
+        rgba(108, 74, 182, 0.6) 0%, 
+        rgba(255, 158, 158, 0.8) 50%, 
+        rgba(108, 74, 182, 0.6) 100%);
+    margin-bottom: 1.5rem;
+}
+
+.footer p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header-container {
+        padding: 2rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .theory-title {
+        font-size: 1.5rem;
+    }
+    
+    .characters-title {
+        font-size: 1.3rem;
+    }
+    
+    .character-avatar {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container {
+        width: 95%;
+    }
+    
+    .header-container,
+    .theory-container,
+    .characters-container {
+        padding: 1.5rem;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .theory-title {
+        font-size: 1.3rem;
+    }
+    
+    .magic-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .character-avatar {
+        width: 60px;
+        height: 60px;
+    }
+}
