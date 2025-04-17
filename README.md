@@ -13,6 +13,8 @@ Inspirado no universo de *Summer Camp Island*
 
 </div>
 
+Clique [aqui](https://avrilstihler.github.io/Gerador-de-Teorias-Absurdas/) para acessar o site.
+
 > _"Às vezes, tudo que a física precisa é de um pouco de purpurina filosófica."_
 
 Este projeto é um **grimoire digital de ideias bizarramente encantadoras**, onde:
