@@ -4,7 +4,7 @@
 
 # 🌙 Teorias Absurdas (ou não) 
 
-### Onde ciência encontra sonho e tudo vira possível
+Inspirado no universo de *Summer Camp Island*
 </div>
 
 <div align="center">
@@ -31,6 +31,7 @@ Feito com a estética de **cobertores mágicos, estrelas dorminhocas e cadernos 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=FF4500)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1E90FF)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=FFD700)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)</span>
 
 </div>
 
@@ -41,8 +42,10 @@ Feito com a estética de **cobertores mágicos, estrelas dorminhocas e cadernos 
 3. Recebe uma teoria maluca com toque de magia, física e filosofia 
 
 
+## Exemplo de Teoria
+  
+| |
+|-------------------|
+| <img src="images/tela3.png" width="600"/> |
 
-| Exemplo de Teoria | 
-|-----------------|
-| ![Teoria Mágica](images/tela2.png) | 
 
