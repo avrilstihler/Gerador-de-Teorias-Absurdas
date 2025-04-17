@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/logo-magica.png" alt="Logo Teorias Absurdas" width="200"/>
+![](images/tela.png)
 
 # 🌙 Teorias Absurdas (ou não) 
 
