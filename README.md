@@ -9,7 +9,7 @@ Inspirado no universo de *Summer Camp Island*
 
 <div align="center">
 
-[![Site](https://img.shields.io/badge/%F0%9F%8C%B8_Teorias_Mágicas-FF69B4?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=FF1493)](https://seu-site.com)
+[![Site](https://img.shields.io/badge/%F0%9F%8C%B8_Teorias_Mágicas-FF69B4?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=FF1493)]([https://seu-site.com](https://avrilstihler.github.io/Gerador-de-Teorias-Absurdas/))
 
 </div>
 
